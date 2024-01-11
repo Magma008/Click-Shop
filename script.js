@@ -65,7 +65,7 @@ const displayItems = (data) => {
                 <p class="font-medium dark:text-white"><span>${elem.stock}</span> pcs left</p>
                 <p class="dark:text-white text-black text-sm sm:text-[16px]">${elem.description}</p>
                 <button
-                class="bg-slate-500 border-slate-500 border transition-all delay-75 hover:bg-transparent px-4 py-2 dark:bg-cyan-500 dark:border-cyan-500 dark:hover:text-cyan-500 hover:text-slate-500 rounded-md mt-auto details">Details</button>
+                class="bg-slate-500 border-slate-500 border transition-all delay-75 hover:bg-transparent px-4 py-2 dark:bg-cyan-500 dark:border-cyan-500 dark:hover:bg-transparent dark:hover:text-cyan-500 hover:text-slate-500 rounded-md mt-auto details">Details</button>
             </div>
         `
         cardContainer.append(card)
@@ -97,7 +97,7 @@ const moduleToggle = (info) => {
                     <p class="text-green-500 text-lg lg:text-xl font-semibold">Price:<span
                     class="ms-2 font-normal">${info.price}$</span></p>
                     <p class="text-lg font-semibold lg:text-xl dark:text-slate-500">Brand:<span
-                    class="ms-2 font-normal dark:text-white">${info.brand}}</span></p>
+                    class="ms-2 font-normal dark:text-white">${info.brand}</span></p>
                     <p class="text-lg font-semibold lg:text-xl dark:text-slate-500">Dicount:<span
                     class="ms-2 font-normal dark:text-white">${info.discountPercentage}<span>%</span></span></p>
                     <p class="text-md font-semibold lg:text-lg dark:text-slate-500">Description:<span
